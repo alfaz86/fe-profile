@@ -14,7 +14,7 @@ const PopupDetailProfile = ({ data, isPopupProfile, handleClose, handleDeletePro
                             <button onClick={handleClose} className='bg-red-500 text-white rounded p-1 text-xl hover:bg-red-600'><IoClose /></button>
                         </div>
                         <div className="flex flex-col text-xs">
-                            <p className="text-center">Hi I'm {data.name}</p>
+                            <p className="text-center">Hi I&apos;m {data.name}</p>
                             <p className="text-center">{data.status}</p>
                             <div className="relative flex justify-center">
                                 <Image src={data.image_profil_url} width={100} height={50} alt="Profil" className="absoluet overflow-visible" />

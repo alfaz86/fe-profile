@@ -14,7 +14,7 @@ const Section = ({ isLightMode, setCollor, data }) => {
                 <div className="flex flex-col md:flex-row justify-between items-center z-10">
                     {data?.map((value, index) => (
                         <div key={index} className="mt-10 md:mt-0 md:w-1/2 w-full">
-                            <h1 className={`${isLightMode ? 'text-gray-700' : ' text-white'} text-center md:text-start text-lg md:text-4xl mb-2`}>Hi, I'm {value.name}</h1>
+                            <h1 className={`${isLightMode ? 'text-gray-700' : ' text-white'} text-center md:text-start text-lg md:text-4xl mb-2`}>Hi I&apos;m {value.name}</h1>
                             <p className={`${isLightMode ? 'text-gray-400' : ' text-gray-600'} text-center md:text-start text-sm md:text-xl mb-2`}>{value.status}</p>
                             <p className={`${isLightMode ? 'text-gray-500' : ' text-gray-300'} text-center md:text-start text-xs md:text-md xl:text-lg `}>{value.bio}</p>
                         </div>
